@@ -1,0 +1,68 @@
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.block{
+	background-color: #7fc4fd;
+	border: dashed #2699fb;
+	border-radius: 10px;
+	display: block;
+	padding: 50px 0;
+	text-align: center;
+	margin-bottom: 40px;
+	height: 100px;
+	transition: all .2s ease-in-out;
+}
+
+.block:hover{
+		transform: scale(0.9);
+	}
+
+.grid{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+
+.gutter{
+	margin-left:  20px;
+	margin-right: 20px;
+}
+
+.col-25{
+	width: 25%;
+	float: left;
+}
+
+.col-33{
+	width: 33.33%;
+	float: left;
+}
+.col-50{
+	width: 50%;
+	float: left;
+}
+.col-100{
+	width: 100%;
+	float: left;
+}
+
+.clear{
+	clear: both;
+	display: block;
+}
+
+@media all and (max-width:800px) {
+	.col-33, .col-25{
+		width: 50%;
+	}
+}
+
+@media all and (max-width:600px) {
+	.col-50, .col-33, .col-25{
+		width: 100%;
+		float: none;
+	}
+}
+
