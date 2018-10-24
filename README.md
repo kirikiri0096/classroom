@@ -1,3 +1,4 @@
 # classroom
 Just a buggy classroom website without any framework.
-fucking shit classroom website 
+您好，这是我们的网络教程。
+ 
